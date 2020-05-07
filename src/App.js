@@ -38,23 +38,23 @@ class App extends Component {
               />
               <Route
                 path="/mountain"
-                render={() => <Item searchTerm="/mountain" />}
+                render={() => <Item searchTerm="mountain" />}
               />
               <Route
                 path="/beach"
-                render={() => <Item searchTerm="/beach" />}
+                render={() => <Item searchTerm="beach" />}
               />
               <Route
                 path="/bird"
-                render={() => <Item searchTerm="/bird" />}
+                render={() => <Item searchTerm="bird" />}
               />
               <Route
                 path="/food"
-                render={() => <Item searchTerm="/food" />}
+                render={() => <Item searchTerm="food" />}
               />
               <Route
                 path="/search/:searchInput"
-                render={props => (<Search searchTerm={this.props.match.params.searchInput} />)}
+                render={props => (<Search searchTerm={props.match.params.searchInput} />)}
               />
               <Route component={NotFound} />
             </Switch>
