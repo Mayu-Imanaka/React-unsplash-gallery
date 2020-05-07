@@ -12,7 +12,7 @@ const PhotoContextProvider = props => {
                 `https://api.unsplash.com/search/photos/?client_id=${apiKey}&page=1&query=${query}&per_page=24`
             )
             .then(response => {
-                setImages(response.data.photos.photo);
+                setImages(response.data.results);
                 setLoading(false);
             })
             .catch(error => {
@@ -23,9 +23,9 @@ const PhotoContextProvider = props => {
             });
     };
     return (
-        <PhotoContextProvider.Provider value={{ images, loading, runSearch }}>
+        <PhotoContext.Provider value={{ images, loading, runSearch }}>
             {props.children}
-        </PhotoContextProvider.Provider>
+        </PhotoContext.Provider>
     );
 };
 
