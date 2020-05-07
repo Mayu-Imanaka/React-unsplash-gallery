@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-unsplash-gallery/static/css/main.a564a6fb.chunk.css",
+    "main.js": "/React-unsplash-gallery/static/js/main.3db97b68.chunk.js",
+    "main.js.map": "/React-unsplash-gallery/static/js/main.3db97b68.chunk.js.map",
+    "runtime-main.js": "/React-unsplash-gallery/static/js/runtime-main.eaf4fabd.js",
+    "runtime-main.js.map": "/React-unsplash-gallery/static/js/runtime-main.eaf4fabd.js.map",
+    "static/js/2.575e9364.chunk.js": "/React-unsplash-gallery/static/js/2.575e9364.chunk.js",
+    "static/js/2.575e9364.chunk.js.map": "/React-unsplash-gallery/static/js/2.575e9364.chunk.js.map",
+    "index.html": "/React-unsplash-gallery/index.html",
+    "precache-manifest.067dfb3fa08f7bac9c28df82125d28c3.js": "/React-unsplash-gallery/precache-manifest.067dfb3fa08f7bac9c28df82125d28c3.js",
+    "service-worker.js": "/React-unsplash-gallery/service-worker.js",
+    "static/css/main.a564a6fb.chunk.css.map": "/React-unsplash-gallery/static/css/main.a564a6fb.chunk.css.map",
+    "static/js/2.575e9364.chunk.js.LICENSE.txt": "/React-unsplash-gallery/static/js/2.575e9364.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eaf4fabd.js",
+    "static/js/2.575e9364.chunk.js",
+    "static/css/main.a564a6fb.chunk.css",
+    "static/js/main.3db97b68.chunk.js"
+  ]
+}
